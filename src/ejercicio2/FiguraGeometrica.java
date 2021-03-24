@@ -6,7 +6,7 @@ public abstract class FiguraGeometrica {
 
     @Override
     public String toString() {
-        String str = "Area: " + area();
+        String str = "Area del " + this.getClass().getName().replace("ejercicio2.","") + ": " + area();
         return str;
     }
 
